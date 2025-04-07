@@ -1,0 +1,17 @@
+#delivery {
+    background: url('../images/delivery-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 4rem 2rem;
+  
+    .content {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem;
+      border-radius: 10px;
+      color: $text-light;
+  
+      h2 {
+        color: $secondary-color;
+      }
+    }
+  }
+  

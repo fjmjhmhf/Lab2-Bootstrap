@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.navbar .nav-link {
+  color: #fff;
+}
+.navbar .nav-link:hover {
+  color: #ffc107;
+}
+
+#menu {
+  background-color: #1e1e1e;
+  padding: 4rem 2rem;
+}
+#menu h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffc107;
+}
+#menu .card {
+  background-color: #222;
+  color: #fff;
+}
+#menu .card .card-title {
+  font-weight: bold;
+}
+#menu .card .btn {
+  background-color: #e31837;
+  border: none;
+}
+#menu .card .btn:hover {
+  background-color: #b5132c;
+}
+
+#delivery {
+  background: url("../images/delivery-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 4rem 2rem;
+}
+#delivery .content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 10px;
+  color: #fff;
+}
+#delivery .content h2 {
+  color: #ffc107;
+}
+
+#subscription {
+  background-color: #333;
+  padding: 3rem 2rem;
+}
+#subscription input[type=email] {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  margin-right: 1rem;
+}
+#subscription .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e31837;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+#subscription .btn:hover {
+  background-color: #b5132c;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}/*# sourceMappingURL=main.css.map */
